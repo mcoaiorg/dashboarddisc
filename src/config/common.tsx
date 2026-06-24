@@ -23,7 +23,7 @@ export const config: AppConfig = {
   name: 'BadDog',
   icon: OmagizeIcon,
   inviteUrl:
-    'https://discord.com/api/oauth2/authorize?client_id=1056177022562476072&permissions=8&scope=bot',
+    'https://discord.com/oauth2/authorize?client_id=1513767218821988492&permissions=8&integration_type=0&scope=bot+applications.commands',
   guild: {
     //filter guilds that user has no permissions to manage it
     filter: (guild) => (Number(guild.permissions) & PermissionFlags.ADMINISTRATOR) !== 0,
